@@ -1,0 +1,24 @@
+<DOCTYPE! HTML>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>cta test</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<script type="text/javascript" src="ctaTest.js"></script>
+		<link rel="stylesheet" href="ctaTest.css" type="text/css">
+	</head>
+
+	<body>
+		<div id="mainContainer">
+			<div id="BG"></div>
+			<div id="copy1"></div>
+			<div id="copy2"></div>
+			<div id="BgClickOut"></div>
+			<div id="cta" onmouseover="ctaOver();" onmouseout="ctaOut();">
+				<div id="ctaOver"></div>
+			</div><!-- set the CTA & rollover to the smaller size with the CSS using CSS3 scale, then scale up to 1 in greensock -->
+		</div>	
+		<script> 
+			initBanner(); 
+		</script>
+	</body>
+</html>
